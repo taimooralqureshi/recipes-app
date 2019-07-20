@@ -1,0 +1,34 @@
+body {
+  font-family: 'Open Sans Condensed', sans-serif !important;
+}
+
+.primary {
+  font-family: 'Courgette', cursive;
+}
+
+.text-red {
+  color: #ff0026;
+}
+.bg-red  {
+  background-color: #ff0026 !important;
+  border: #d3001c  !important;
+  color: #ddd  !important;
+  font-weight: bold !important;
+
+}
+.bg-red:hover {
+  color: #fff !important;
+  font-weight: bold;
+}
+.reduced-letter-spacing {
+  letter-spacing: 0.5rem;
+}
+
+.header-hero,.default-hero {
+  height: calc(100vh - 56px) !important;
+  background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('./images/homeBcg.jpeg') center/cover no-repeat;
+}
+
+.default-hero {
+  background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('./images/defaultBcg.jpeg');
+}
